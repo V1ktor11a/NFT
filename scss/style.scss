@@ -1,0 +1,557 @@
+@import "colors.scss";
+@import "typography.scss";
+
+body {
+  background: $color-light-2;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  padding: 0 32px;
+}
+
+.btn-padding {
+  padding: 10.5px 12px;
+  border-radius: 8px;
+}
+.btn-gray {
+  background-color: $color-light-2;
+  color: $color-dark-1;
+}
+.btn-white {
+  background-color: $color-light-1;
+  color: $color-dark-1;
+}
+
+.menu {
+  .navbar-brand {
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar-light .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler {
+    padding: 0;
+  }
+
+  .nav-logo {
+    margin-left: 24px;
+    margin-right: 132px;
+  }
+  .navbar-toggler {
+    font-size: 1rem;
+  }
+  .navbar {
+    padding-top: 36px;
+    padding-bottom: 0;
+  }
+}
+//Hero
+.hero {
+  padding-top: 56px;
+  padding-bottom: 0;
+
+  .mobile-bg {
+    background-image: url(/images/bg-HeroM.png);
+    background-repeat: no-repeat;
+    background-position: bottom right 5px;
+  }
+
+  h6 {
+    color: $color-dark-4;
+    padding-bottom: 24px;
+  }
+  h1 {
+    max-width: 253px;
+  }
+  h2 {
+    color: $color-dark-2;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    max-width: 253px;
+  }
+  .btn-group {
+    padding-bottom: 56px;
+  }
+  .btn-explore {
+    background-color: $color-green;
+    color: $color-dark-1;
+    margin-right: 16px;
+  }
+  .btn-create {
+    background-color: $color-light-1;
+    color: $color-dark-1;
+  }
+  .bg-create {
+    background-color: $color-red;
+    padding: 5px;
+  }
+  .jess-block {
+    padding-top: 40px;
+  }
+  p {
+    padding-top: 12px;
+    color: $color-dark-2;
+  }
+}
+.line-light-4 {
+  height: 1px;
+  background-color: $color-light-4;
+}
+.line-light-4-pd {
+  padding-bottom: 1px;
+}
+
+//Claim a Free Limited NFT and CHARBlobs
+.claim-block {
+  padding: 32px;
+  border-radius: 8px;
+  background-color: $color-light-1;
+  .icon {
+    padding-bottom: 16px;
+  }
+  h3 {
+    padding-bottom: 16px;
+  }
+  p {
+    padding-bottom: 16px;
+    color: $color-dark-2;
+  }
+}
+.charblobs {
+  padding-bottom: 32px;
+  .pink-bg {
+    background-color: $color-light-pink;
+    .btn-pink {
+      color: $color-dark-pink;
+      border: 1px solid $color-dark-pink;
+    }
+  }
+  .purple-bg {
+    background-color: $color-light-purple;
+    .btn-purple {
+      color: $color-dark-purple;
+      border: 1px solid $color-dark-purple;
+    }
+  }
+}
+
+//Upcoming Drop
+//Top & Trending
+//New & Noteworthy
+.upcoming {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  p {
+    padding-top: 16px;
+    color: $color-dark-2;
+  }
+}
+
+.trending-block {
+  padding-top: 32px;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-bottom: 30px;
+  border-radius: 8px;
+  background-color: $color-light-1;
+  .trending-text p {
+    padding-top: 16px;
+    color: $color-dark-2;
+  }
+}
+.verified {
+  width: 16px;
+}
+.icon-width {
+  width: 56px;
+}
+
+.erth-right-pd {
+  padding-right: 8px;
+}
+
+.erth-pd {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.line-light-2 {
+  height: 1px;
+  background-color: $color-light-2;
+  margin-top: 23px;
+  margin-bottom: 24px;
+}
+.line-light-pd {
+  padding-top: 9px;
+}
+//Ending Soon
+.ending-box-margin {
+  margin-bottom: 12px;
+}
+.ending-box {
+  height: 365px;
+  max-width: 350px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-size: cover;
+
+  .ending-small-box {
+    padding: 24px;
+
+    img {
+      padding-right: 8px;
+    }
+  }
+  p {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+.floppy-bg {
+  background-image: url(/images/floppy.png);
+}
+.floppy-small-bg {
+  background: rgba(227, 227, 220, 0.64);
+  backdrop-filter: blur(12px);
+}
+.merlge-bg {
+  background-image: url(/images/merlge.png);
+}
+.merlge-small-bg {
+  background: rgba(143, 1, 0, 0.64);
+  backdrop-filter: blur(12px);
+}
+
+.starr-bg {
+  background-image: url(/images/starrEyes.png);
+}
+.starr-small-bg {
+  background: rgba(22, 22, 22, 0.64);
+  backdrop-filter: blur(12px);
+}
+.help-bg {
+  background-image: url(/images/help.png);
+}
+.help-small-bg {
+  background: rgba(1, 227, 225, 0.64);
+  backdrop-filter: blur(12px);
+}
+.lh-19px {
+  line-height: 19px;
+}
+
+.dark-3 {
+  color: $color-dark-3;
+}
+
+.light-1 {
+  color: $color-light-1;
+}
+
+.light-4 {
+  color: $color-light-4;
+}
+
+.green {
+  color: $color-green;
+}
+
+.dark-1 {
+  color: $color-dark-1;
+}
+.dark-2 {
+  color: $color-dark-2;
+}
+.dark-4 {
+  color: $color-dark-4;
+}
+
+.dark-green {
+  color: $color-dark-green;
+}
+
+.dark-red {
+  color: $color-dark-red;
+}
+
+.lh-20px {
+  line-height: 19.36px;
+}
+.lh-15px {
+  line-height: 14.52px;
+}
+//New Collections
+.btn-outline-dark {
+  color: $color-dark-1;
+  border: 1px solid $color-dark-1;
+}
+.banane-bg {
+  background: #ffe6d8;
+}
+.smoke-bg {
+  background: #d8ecff;
+}
+.cesr-bg {
+  background: #ffd8eb;
+}
+.fllow-bg {
+  background: #fff4d8;
+}
+
+//Learn & Earn
+.learn {
+  p {
+    padding-top: 12px;
+    padding-bottom: 0;
+  }
+}
+.learn-1-bg {
+  background-image: url(/images/learn1.png);
+}
+.learn-1-small-bg {
+  background: rgba(184, 141, 208, 0.64);
+  backdrop-filter: blur(12px);
+}
+.learn-2-bg {
+  background-image: url(/images/learn2.png);
+}
+.learn-2-small-bg {
+  background: rgba(222, 200, 163, 0.64);
+  backdrop-filter: blur(12px);
+}
+.learn-3-bg {
+  background-image: url(/images/learn3.png);
+}
+.learn-3-small-bg {
+  background: rgba(122, 181, 161, 0.64);
+  backdrop-filter: blur(12px);
+}
+.learn-4-bg {
+  background-image: url(/images/learn4.png);
+}
+.learn-4-small-bg {
+  background: rgba(51, 113, 198, 0.64);
+  backdrop-filter: blur(12px);
+}
+
+//Trade NFTs with zero fees
+.trade-NFT {
+  padding-top: 56px;
+  h6 {
+    color: $color-dark-4;
+    padding-bottom: 24px;
+  }
+  h1 {
+    max-width: 340px;
+  }
+  h2 {
+    color: $color-dark-2;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    max-width: 340px;
+  }
+  .btn-group {
+    padding-bottom: 32px;
+  }
+  .btn-explore {
+    background-color: $color-green;
+    color: $color-dark-1;
+    margin-right: 16px;
+  }
+  .btn-create {
+    background-color: $color-light-1;
+    color: $color-dark-1;
+  }
+}
+.trade-m-bg {
+  background-image: url(/images/bg-FooterM.png);
+  background-repeat: no-repeat;
+  background-position: top 5px right;
+}
+
+//Partners
+
+.partners {
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+//Nft-menu
+.menu-NFT {
+  padding-top: 32px;
+  padding-bottom: 56px;
+  a {
+    color: $color-dark-2;
+  }
+  p {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .menu-img {
+    img {
+      padding-right: 16px;
+    }
+  }
+  h5 {
+    padding-top: 56px;
+    padding-bottom: 24px;
+  }
+  ul {
+    margin-bottom: 0;
+  }
+  .menu-li-pd {
+    padding-top: 8px;
+  }
+}
+//Copyright 2022 NFTwow
+.copyright {
+  padding-bottom: 56px;
+}
+.text-sm-pd {
+  padding-top: 12px;
+}
+
+//
+@media (min-width: 768px) {
+  .container {
+    max-width: 1520px;
+  }
+  .container {
+    padding: 0 64px;
+  }
+  //Navbar
+  .navbar {
+    background: none;
+  }
+
+  .some-menu {
+    padding-top: 12px;
+    padding-left: 12px;
+    .color-btn {
+      padding: 0;
+    }
+  }
+
+  .menu {
+    padding-top: 32px;
+
+    .navbar {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+      color: $color-dark-1;
+      padding: 0;
+    }
+    .navbar-brand {
+      margin-right: 0;
+    }
+    .nav-logo {
+      margin-right: 98px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .nav-search {
+      width: 448px;
+      padding-top: 8px;
+      padding-left: 12px;
+      padding-bottom: 8px;
+      margin-left: 98px;
+      margin-right: auto;
+      border-radius: 8px;
+      border: none;
+      background-color: $color-light-1;
+    }
+
+    .navbar-pd {
+      padding-right: 22px;
+    }
+    .nav-logo {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  //Hero
+  .hero {
+    padding-top: 80px;
+    padding-bottom: 0;
+    h1 {
+      max-width: 340px;
+    }
+    h2 {
+      max-width: 340px;
+    }
+    .mobile-bg {
+      background-image: none;
+    }
+
+    .hero-img-padding {
+      padding-right: 64px;
+    }
+    .lh-col-12 {
+      line-height: 2px;
+    }
+  }
+
+  //Claim a Free Limited NFT
+  .charblobs {
+    padding-bottom: 56px;
+  }
+  //Upcoming Drop
+  //Top & Trending
+  //New & Noteworthy
+  .upcoming {
+    padding-top: 56px;
+  }
+  .trending-block {
+    padding-bottom: 32px;
+  }
+  //Ending Soon
+  .ending-box-margin {
+    margin-bottom: 0px;
+  }
+  .ending-box {
+    max-width: 330px;
+  }
+
+  //Trade NFTs with zero fees
+  .trade-NFT {
+    padding-top: 80px;
+    .btn-group {
+      padding-bottom: 56px;
+    }
+  }
+  .trade-m-bg {
+    background-image: none;
+  }
+  .trade-bg {
+    background-image: url(/images/bg-Footer1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right 64px;
+  }
+
+  //Nft-menu
+  .menu-NFT {
+    h5 {
+      padding-top: 0;
+      padding-bottom: 24px;
+    }
+  }
+  //Copyright 2022 NFTwow
+  .copyright {
+    padding-bottom: 80px;
+  }
+
+  .text-sm-pd {
+    padding-top: 0;
+  }
+  .text-md-pd {
+    padding-top: 12px;
+  }
+}

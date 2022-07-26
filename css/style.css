@@ -1,0 +1,650 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 0;
+}
+
+h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 0;
+}
+
+a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  margin-bottom: 0;
+  display: block;
+}
+
+.fw-placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  margin-bottom: 0;
+}
+
+.btn-font {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 0;
+}
+
+.menu-NFT a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body {
+  background: #eeeeee;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  padding: 0 32px;
+}
+
+.btn-padding {
+  padding: 10.5px 12px;
+  border-radius: 8px;
+}
+
+.btn-gray {
+  background-color: #eeeeee;
+  color: #111111;
+}
+
+.btn-white {
+  background-color: #ffffff;
+  color: #111111;
+}
+
+.menu .navbar-brand {
+  margin-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.menu .navbar-light .navbar-toggler {
+  border: none;
+}
+.menu .navbar-toggler {
+  padding: 0;
+}
+.menu .nav-logo {
+  margin-left: 24px;
+  margin-right: 132px;
+}
+.menu .navbar-toggler {
+  font-size: 1rem;
+}
+.menu .navbar {
+  padding-top: 36px;
+  padding-bottom: 0;
+}
+
+.hero {
+  padding-top: 56px;
+  padding-bottom: 0;
+}
+.hero .mobile-bg {
+  background-image: url(/images/bg-HeroM.png);
+  background-repeat: no-repeat;
+  background-position: bottom right 5px;
+}
+.hero h6 {
+  color: #777777;
+  padding-bottom: 24px;
+}
+.hero h1 {
+  max-width: 253px;
+}
+.hero h2 {
+  color: #555555;
+  padding-top: 24px;
+  padding-bottom: 32px;
+  max-width: 253px;
+}
+.hero .btn-group {
+  padding-bottom: 56px;
+}
+.hero .btn-explore {
+  background-color: #42ffd2;
+  color: #111111;
+  margin-right: 16px;
+}
+.hero .btn-create {
+  background-color: #ffffff;
+  color: #111111;
+}
+.hero .bg-create {
+  background-color: #ff4242;
+  padding: 5px;
+}
+.hero .jess-block {
+  padding-top: 40px;
+}
+.hero p {
+  padding-top: 12px;
+  color: #555555;
+}
+
+.line-light-4 {
+  height: 1px;
+  background-color: #cccccc;
+}
+
+.line-light-4-pd {
+  padding-bottom: 1px;
+}
+
+.claim-block {
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+.claim-block .icon {
+  padding-bottom: 16px;
+}
+.claim-block h3 {
+  padding-bottom: 16px;
+}
+.claim-block p {
+  padding-bottom: 16px;
+  color: #555555;
+}
+
+.charblobs {
+  padding-bottom: 32px;
+}
+.charblobs .pink-bg {
+  background-color: #ffd8e6;
+}
+.charblobs .pink-bg .btn-pink {
+  color: #ff005c;
+  border: 1px solid #ff005c;
+}
+.charblobs .purple-bg {
+  background-color: #f2d8ff;
+}
+.charblobs .purple-bg .btn-purple {
+  color: #aa00ff;
+  border: 1px solid #aa00ff;
+}
+
+.upcoming {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.upcoming p {
+  padding-top: 16px;
+  color: #555555;
+}
+
+.trending-block {
+  padding-top: 32px;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-bottom: 30px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+.trending-block .trending-text p {
+  padding-top: 16px;
+  color: #555555;
+}
+
+.verified {
+  width: 16px;
+}
+
+.icon-width {
+  width: 56px;
+}
+
+.erth-right-pd {
+  padding-right: 8px;
+}
+
+.erth-pd {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.line-light-2 {
+  height: 1px;
+  background-color: #eeeeee;
+  margin-top: 23px;
+  margin-bottom: 24px;
+}
+
+.line-light-pd {
+  padding-top: 9px;
+}
+
+.ending-box-margin {
+  margin-bottom: 12px;
+}
+
+.ending-box {
+  height: 365px;
+  max-width: 350px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-size: cover;
+}
+.ending-box .ending-small-box {
+  padding: 24px;
+}
+.ending-box .ending-small-box img {
+  padding-right: 8px;
+}
+.ending-box p {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.floppy-bg {
+  background-image: url(/images/floppy.png);
+}
+
+.floppy-small-bg {
+  background: rgba(227, 227, 220, 0.64);
+  backdrop-filter: blur(12px);
+}
+
+.merlge-bg {
+  background-image: url(/images/merlge.png);
+}
+
+.merlge-small-bg {
+  background: rgba(143, 1, 0, 0.64);
+  backdrop-filter: blur(12px);
+}
+
+.starr-bg {
+  background-image: url(/images/starrEyes.png);
+}
+
+.starr-small-bg {
+  background: rgba(22, 22, 22, 0.64);
+  backdrop-filter: blur(12px);
+}
+
+.help-bg {
+  background-image: url(/images/help.png);
+}
+
+.help-small-bg {
+  background: rgba(1, 227, 225, 0.64);
+  backdrop-filter: blur(12px);
+}
+
+.lh-19px {
+  line-height: 19px;
+}
+
+.dark-3 {
+  color: #777777;
+}
+
+.light-1 {
+  color: #ffffff;
+}
+
+.light-4 {
+  color: #cccccc;
+}
+
+.green {
+  color: #42ffd2;
+}
+
+.dark-1 {
+  color: #111111;
+}
+
+.dark-2 {
+  color: #555555;
+}
+
+.dark-4 {
+  color: #777777;
+}
+
+.dark-green {
+  color: #00a47c;
+}
+
+.dark-red {
+  color: #c60202;
+}
+
+.lh-20px {
+  line-height: 19.36px;
+}
+
+.lh-15px {
+  line-height: 14.52px;
+}
+
+.btn-outline-dark {
+  color: #111111;
+  border: 1px solid #111111;
+}
+
+.banane-bg {
+  background: #ffe6d8;
+}
+
+.smoke-bg {
+  background: #d8ecff;
+}
+
+.cesr-bg {
+  background: #ffd8eb;
+}
+
+.fllow-bg {
+  background: #fff4d8;
+}
+
+.learn p {
+  padding-top: 12px;
+  padding-bottom: 0;
+}
+
+.learn-1-bg {
+  background-image: url(/images/learn1.png);
+}
+
+.learn-1-small-bg {
+  background: rgba(184, 141, 208, 0.64);
+  backdrop-filter: blur(12px);
+}
+
+.learn-2-bg {
+  background-image: url(/images/learn2.png);
+}
+
+.learn-2-small-bg {
+  background: rgba(222, 200, 163, 0.64);
+  backdrop-filter: blur(12px);
+}
+
+.learn-3-bg {
+  background-image: url(/images/learn3.png);
+}
+
+.learn-3-small-bg {
+  background: rgba(122, 181, 161, 0.64);
+  backdrop-filter: blur(12px);
+}
+
+.learn-4-bg {
+  background-image: url(/images/learn4.png);
+}
+
+.learn-4-small-bg {
+  background: rgba(51, 113, 198, 0.64);
+  backdrop-filter: blur(12px);
+}
+
+.trade-NFT {
+  padding-top: 56px;
+}
+.trade-NFT h6 {
+  color: #777777;
+  padding-bottom: 24px;
+}
+.trade-NFT h1 {
+  max-width: 340px;
+}
+.trade-NFT h2 {
+  color: #555555;
+  padding-top: 24px;
+  padding-bottom: 32px;
+  max-width: 340px;
+}
+.trade-NFT .btn-group {
+  padding-bottom: 32px;
+}
+.trade-NFT .btn-explore {
+  background-color: #42ffd2;
+  color: #111111;
+  margin-right: 16px;
+}
+.trade-NFT .btn-create {
+  background-color: #ffffff;
+  color: #111111;
+}
+
+.trade-m-bg {
+  background-image: url(/images/bg-FooterM.png);
+  background-repeat: no-repeat;
+  background-position: top 5px right;
+}
+
+.partners {
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.menu-NFT {
+  padding-top: 32px;
+  padding-bottom: 56px;
+}
+.menu-NFT a {
+  color: #555555;
+}
+.menu-NFT p {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.menu-NFT .menu-img img {
+  padding-right: 16px;
+}
+.menu-NFT h5 {
+  padding-top: 56px;
+  padding-bottom: 24px;
+}
+.menu-NFT ul {
+  margin-bottom: 0;
+}
+.menu-NFT .menu-li-pd {
+  padding-top: 8px;
+}
+
+.copyright {
+  padding-bottom: 56px;
+}
+
+.text-sm-pd {
+  padding-top: 12px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 1520px;
+  }
+  .container {
+    padding: 0 64px;
+  }
+  .navbar {
+    background: none;
+  }
+  .some-menu {
+    padding-top: 12px;
+    padding-left: 12px;
+  }
+  .some-menu .color-btn {
+    padding: 0;
+  }
+  .menu {
+    padding-top: 32px;
+  }
+  .menu .navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .menu .navbar-light .navbar-nav .nav-link {
+    color: #111111;
+    padding: 0;
+  }
+  .menu .navbar-brand {
+    margin-right: 0;
+  }
+  .menu .nav-logo {
+    margin-right: 98px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .menu .nav-search {
+    width: 448px;
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-bottom: 8px;
+    margin-left: 98px;
+    margin-right: auto;
+    border-radius: 8px;
+    border: none;
+    background-color: #ffffff;
+  }
+  .menu .navbar-pd {
+    padding-right: 22px;
+  }
+  .menu .nav-logo {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .hero {
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+  .hero h1 {
+    max-width: 340px;
+  }
+  .hero h2 {
+    max-width: 340px;
+  }
+  .hero .mobile-bg {
+    background-image: none;
+  }
+  .hero .hero-img-padding {
+    padding-right: 64px;
+  }
+  .hero .lh-col-12 {
+    line-height: 2px;
+  }
+  .charblobs {
+    padding-bottom: 56px;
+  }
+  .upcoming {
+    padding-top: 56px;
+  }
+  .trending-block {
+    padding-bottom: 32px;
+  }
+  .ending-box-margin {
+    margin-bottom: 0px;
+  }
+  .ending-box {
+    max-width: 330px;
+  }
+  .trade-NFT {
+    padding-top: 80px;
+  }
+  .trade-NFT .btn-group {
+    padding-bottom: 56px;
+  }
+  .trade-m-bg {
+    background-image: none;
+  }
+  .trade-bg {
+    background-image: url(/images/bg-Footer1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right 64px;
+  }
+  .menu-NFT h5 {
+    padding-top: 0;
+    padding-bottom: 24px;
+  }
+  .copyright {
+    padding-bottom: 80px;
+  }
+  .text-sm-pd {
+    padding-top: 0;
+  }
+  .text-md-pd {
+    padding-top: 12px;
+  }
+}
