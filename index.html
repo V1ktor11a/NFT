@@ -4,105 +4,1443 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>First page</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
     <header>
-      <div class="collection-bg">
-        <div class="container some-menu">
+      <div class="container some-menu">
+        <div class="row">
+          <div class="col-md-12 d-none d-md-flex">
+            <button type="button" class="d-flex btn color-btn">
+              <img src="/images/controls.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="menu">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid g-0">
+              <a class="navbar-brand nav-logo order-2 order-md-1" href="#"
+                ><img src="/images/logo.png" alt=""
+              /></a>
+              <button
+                class="navbar-toggler order-1"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span><img src="/images/menu.png" alt="" /> </span>
+              </button>
+              <div
+                class="collapse navbar-collapse order-4 order-md-2 justify-content-between"
+                id="navbarSupportedContent"
+              >
+                <form class="d-flex">
+                  <input
+                    class="fw-placeholder dark-4 form-control nav-search nav-search-color order-md-2"
+                    type="search"
+                    placeholder="Search items and collections"
+                    aria-label="Search"
+                  />
+                </form>
+                <ul class="navbar-nav">
+                  <li class="nav-item navbar-pd">
+                    <a class="nav-link" href="#">Create</a>
+                  </li>
+                  <li class="nav-item navbar-pd">
+                    <a class="nav-link" href="#">Explore</a>
+                  </li>
+                  <li class="nav-item navbar-pd">
+                    <a class="nav-link" href="#">Wallet</a>
+                  </li>
+                </ul>
+              </div>
+              <a class="navbar-brand order-3 order-md-3" href="#"
+                ><img src="/images/user1.png" alt="" width="32px"
+              /></a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!--Hero-->
+      <div class="hero">
+        <div class="mobile-bg">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h6>Welcome</h6>
+              </div>
+              <div class="col-12 d-none d-md-flex">
+                <h1>Trade NFTs with zero fees</h1>
+              </div>
+              <div class="col-12 d-flex d-block d-md-none">
+                <h1>Trade NFTs free</h1>
+              </div>
+              <div class="col-12 d-none d-md-flex">
+                <h2>We are the world’s highest-rated online marketplace</h2>
+              </div>
+              <div class="col-12 d-flex d-block d-md-none">
+                <h2>The world’s highest rated marketplace</h2>
+              </div>
+            </div>
+            <div class="row btn-group">
+              <div class="col-12 d-flex flex-row">
+                <button
+                  class="btn-font btn-explore btn-right-mg btn-padding btn"
+                  type="button"
+                >
+                  Explore NFTs
+                </button>
+                <button
+                  class="btn-font btn btn-create btn-padding position-relative"
+                  type="button"
+                >
+                  <div class="d-block d-md-none">Create</div>
+                  <div class="d-none d-md-flex">Create Your Own</div>
+                  <span
+                    class="position-absolute top-0 start-100 translate-middle badge rounded-circle bg-create"
+                    ><span class="visually-hidden">unread messages</span></span
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 line-light-4-pd">
+                <div class="line-light-4"></div>
+              </div>
+              <div class="col-12 line-light-4-pd-top">
+                <div class="line-light-4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container position-relative">
           <div class="row">
-            <div class="col-md-12 d-none d-md-flex">
-              <button type="button" class="d-flex btn color-btn">
-                <img src="/images/controls.png" alt="" />
+            <div class="col-12 col-md-6">
+              <div
+                class="row d-flex align-items-center justify-content-start jess-block"
+              >
+                <div class="col-4 col-md-2">
+                  <img src="/images/JessY.png" alt="" />
+                </div>
+                <div class="col-8 col-md-6">
+                  <h4 class="text-start">Jess Young</h4>
+                  <div class="d-none d-md-flex">
+                    <p class="text-start">
+                      “NFTwow helped me to turn my art from earning the odd $20,
+                      to earning over seven figures a year.”
+                    </p>
+                  </div>
+                  <div class="d-flex d-block d-md-none">
+                    <p class="text-start">
+                      “NFTwow helped me to turn my art from earning the odd $20,
+                      to earning thousands.”
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row d-none d-md-flex">
+            <div
+              class="col-12 d-flex justify-content-end position-absolute bottom-0 end-0 hero-img-padding"
+            >
+              <img src="/images/bg-Hero.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Claim a Free Limited NFT-->
+      <div class="container">
+        <div class="row gx-4">
+          <div class="col-12 col-md-6 d-flex">
+            <div class="claim-block">
+              <div class="row gx-4">
+                <div class="col-6 icon">
+                  <img src="/images/icon2FreeLimited.png" alt="" />
+
+                  <div class="col-12 d-none d-md-flex">
+                    <h3>Claim a Free Limited NFT</h3>
+                  </div>
+                  <div class="col-12 d-flex d-block d-md-none">
+                    <h3>Claim a Free NFT</h3>
+                  </div>
+                  <div class="col-12  d-none d-md-flex">
+                    <p>
+                      New members who sign up between 3/5 and 3/11 can claim a
+                      free NFT by creator Cyle Sim.
+                    </p>
+                  </div>
+                  <div class="col-12 d-flex d-block d-md-none">
+                    <p>New members can claim a free NFT by creator Cyle Sim.</p>
+                  </div>
+
+                  <button
+                    type="button"
+                    class="btn-font btn btn-padding btn-gray"
+                  >
+                    Claim Now
+                  </button>
+                </div>
+                <div class="col-6">
+                  <picture>
+                    <source
+                      media="(max-width: 768px)"
+                      srcset="/images/freeLimited_M.png"
+                      sizes=""
+                    />
+                    <img src="/images/freeLimited.png" alt="" />
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-none d-md-flex col-12 col-md-6">
+            <div class="claim-block">
+              <div class="row gx-4">
+                <div class="col-6 icon">
+                  <img src="/images/icon2Finance0.png" alt="" />
+                  <h3>Finance with 0% APR</h3>
+                  <p>
+                    We have partnered with Zlamra to allow you to finance your
+                    NFT investments with zero fees.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn-font btn btn-padding btn-gray"
+                  >
+                    Learn More
+                  </button>
+                </div>
+                <div class="col-6">
+                  <img src="/images/finance0.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Upcoming Drops-->
+      <div class="upcoming upcoming-block-pd">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-9 d-flex justify-content-start flex-column">
+              <h3>Upcoming Drops</h3>
+              <div class="col-12 d-none d-md-flex">
+                <p>
+                  Be the first to get your hands on limited NFT drops, exclusive
+                  to NFTwow.
+                </p>
+              </div>
+              <div class="col-12 d-flex d-block d-md-none">
+                <p>Be the first.</p>
+              </div>
+            </div>
+            <div class="col-3 d-flex justify-content-end">
+              <button type="button" class="btn-font btn btn-padding btn-white">
+                Explore
               </button>
             </div>
           </div>
         </div>
+      </div>
+      <!--CHARBlobs-->
+      <div class="charblobs">
         <div class="container">
-          <div class="menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
-              <div class="container-fluid g-0">
-                <a class="navbar-brand nav-logo order-2 order-md-1" href="#"
-                  ><img src="/images/logo.png" alt=""
-                /></a>
-                <button
-                  class="navbar-toggler order-1"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span><img src="/images/menu.png" alt="" /> </span>
-                </button>
-                <div
-                  class="collapse navbar-collapse order-4 order-md-2 justify-content-between"
-                  id="navbarSupportedContent"
-                >
-                  <form class="d-flex">
-                    <input
-                      class="fw-placeholder form-control nav-search order-md-2"
-                      type="search"
-                      placeholder="Search items and collections"
-                      aria-label="Search"
-                    />
-                  </form>
-                  <ul class="navbar-nav">
-                    <li class="nav-item navbar-pd">
-                      <a class="nav-link" href="#">Create</a>
-                    </li>
-                    <li class="nav-item navbar-pd">
-                      <a class="nav-link" href="#">Explore</a>
-                    </li>
-                    <li class="nav-item navbar-pd">
-                      <a class="nav-link" href="#">Wallet</a>
-                    </li>
-                  </ul>
-                </div>
-                <a class="navbar-brand order-3 order-md-3" href="#"
-                  ><img src="/images/user1.png" alt="" width="32px"
-                /></a>
-              </div>
-            </nav>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-8">
-              <div class="row">
-                <div class="col"><h1>OctopusGame</h1></div>
-                <div class="col btn-group d-flex flex-row">
-                  <button
-                    class="btn-font btn-explore btn-padding btn"
-                    type="button"
-                  >
-                    Explore NFTs
-                  </button>
-                  <button
-                    class="btn-font btn btn-create btn-padding"
-                    type="button"
-                  >
-                    <div class="d-block d-md-none">Create</div>
-                    <div class="d-none d-md-flex">Create Your Own</div>
-                  </button>
+          <div class="row gx-4">
+            <div class="col-12 col-md-6 d-flex">
+              <div class="claim-block pink-bg">
+                <div class="row gx-4">
+                  <div class="col-6">
+                    <h3>CHARBlobs</h3>
+                    <div class="col-12 d-none d-md-flex">
+                      <p>
+                        This new collection by Muxhy recreates some of his most
+                        famous characters in 3D.
+                      </p>
+                    </div>
+                    <div class="col-12 d-flex d-block d-md-none">
+                      <p>
+                        This new collection by Muxhy recreates some of his most
+                        famous characters.
+                      </p>
+                    </div>
+                    <button
+                      type="button"
+                      class="btn-font btn btn-padding btn-pink"
+                    >
+                      00:01:09:34
+                    </button>
+                  </div>
+                  <div class="col-6">
+                    <picture>
+                      <source
+                        media="(max-width: 768px)"
+                        srcset="/images/charBlobs_M.png"
+                        sizes=""
+                      />
+                      <img src="/images/charBlobs.png" alt="" />
+                    </picture>
+                  </div>
                 </div>
               </div>
-              <div class="row"></div>
-              <div class="row"></div>
             </div>
-            <div class="col-4"></div>
+            <div class="d-none d-md-flex col-12 col-md-6">
+              <div class="claim-block purple-bg">
+                <div class="row gx-4">
+                  <div class="col-6">
+                    <h3>Jeanie Tyu</h3>
+                    <p>
+                      Artist Jeanie Tyu’s new exhibition in Tokyo consists of
+                      ten artworks which will be available for sale on NFTwow.
+                    </p>
+                    <button
+                      type="button"
+                      class="btn-font btn btn-padding btn-purple"
+                    >
+                      02:03:32:17
+                    </button>
+                  </div>
+                  <div class="col-6">
+                    <img src="/images/jeanieTyu.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </header>
+
+      <!--Top & Trending-->
+      <!--Upcoming Drop STYLE-->
+      <div class="container">
+        <div class="row gx-4">
+          <div class="col-12 col-md-6 d-flex">
+            <div class="trending-block">
+              <div class="row">
+                <div class="col-12 trending-text">
+                  <div class="row d-flex align-items-center">
+                    <div
+                      class="col-8 col-md-9 d-flex flex-column justify-content-start"
+                    >
+                      <h3>Top & Trending</h3>
+                      <div class="col-12 d-none d-md-flex">
+                        <p>See what’s hot in the world of non-fungibles.</p>
+                      </div>
+                      <div class="col-12 d-flex d-block d-md-none">
+                        <p>See what’s hot.</p>
+                      </div>
+                    </div>
+                    <div class="col-4 col-md-3 d-flex justify-content-end">
+                      <button
+                        type="button"
+                        class="btn-font btn btn-padding btn-gray"
+                      >
+                        Explore
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!--Roundiiies -->
+                <div class="col-12 line-light-pd">
+                  <div class="line-light-2"></div>
+                </div>
+                <div class="col-12">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <div class="position-relative icon-width">
+                        <img src="/images/EllipseRoundiiies.png" alt="" />
+                        <div
+                          class="d-flex align-items-start verified position-absolute top-0 end-0"
+                        >
+                          <img src="/images/verified.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="row d-flex flex-column flex-md-row ">
+                        <div class="col-12 col-md-8 dark-1">
+                          <h4>#1 - Roundiiies</h4>
+                        </div>
+                        <div class="col-12 col-md-4 text-sm-pd dark-green text-start text-md-end">
+                            <h4 >+1,095.3%</h4>
+                         </div>
+                      </div>
+                      <div class="row d-none d-md-flex flex-row text-md-pd dark-2">
+                        <div class="col-8 d-flex flex-row align-items-center">
+                          <p>Lowest Price:</p>
+                          <div>
+                            <div class="erth-pd d-flex align-items-center">
+                              <img
+                                
+                                src="/images/erhtSmall.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <p>45.2</p>
+                        </div>
+                        <div class="col-4 d-flex flex-row justify-content-end align-items-center">
+                          <div  class="erth-right-pd d-flex align-items-center">
+                            <img
+                              src="/images/erhtSmall.png"
+                            alt="" />
+                          </div>
+                        <p>87,490.32</p>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Flewid-->
+                <div class="col-12">
+                  <div class="line-light-2"></div>
+                </div>
+                <div class="col-12">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <div class="position-relative icon-width">
+                        <img src="/images/EllipseFlewid.png" alt="" />
+                        <div
+                          class="d-flex align-items-start verified position-absolute top-0 end-0"
+                        >
+                          <img src="/images/verified.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="row d-flex flex-column flex-md-row ">
+                        <div class="col-12 col-md-8 dark-1">
+                          <h4>#2- Flewid</h4>
+                        </div>
+                        <div class="col-12 col-md-4 text-sm-pd dark-red text-start text-md-end">
+                            <h4 >-5.3%</h4>
+                         </div>
+                      </div>
+                      <div class="row d-none d-md-flex flex-row text-md-pd dark-2">
+                        <div class="col-8 d-flex flex-row align-items-center">
+                          <p>Lowest Price:</p>
+                          <div>
+                            <div class="erth-pd d-flex align-items-center">
+                              <img
+                                
+                                src="/images/erhtSmall.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <p>2.5</p>
+                        </div>
+                        <div class="col-4 d-flex flex-row justify-content-end align-items-center">
+                          <div  class="erth-right-pd d-flex align-items-center">
+                            <img
+                              src="/images/erhtSmall.png"
+                            alt="" />
+                          </div>
+                        <p>5,984.23</p>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Angel of Moon-->
+                <div class="col-12">
+                  <div class="line-light-2"></div>
+                </div>
+                <div class="col-12">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <div class="position-relative icon-width">
+                        <img src="/images/EllipseAngelOfMoon.png" alt="" />
+                        <div
+                          class="d-flex align-items-start verified position-absolute top-0 end-0"
+                        >
+                          <img src="/images/verified.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="row d-flex flex-column flex-md-row ">
+                        <div class="col-12 col-md-8 dark-1">
+                          <h4>#3 - Angel of Moon</h4>
+                        </div>
+                        <div class="col-12 col-md-4 text-sm-pd dark-green text-start text-md-end">
+                            <h4 >+19.6%</h4>
+                         </div>
+                      </div>
+                      <div class="row d-none d-md-flex flex-row text-md-pd dark-2">
+                        <div class="col-8 d-flex flex-row align-items-center">
+                          <p>Lowest Price:</p>
+                          <div>
+                            <div class="erth-pd d-flex align-items-center">
+                              <img
+                                
+                                src="/images/erhtSmall.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <p>19.4</p>
+                        </div>
+                        <div class="col-4 d-flex flex-row justify-content-end align-items-center">
+                          <div  class="erth-right-pd d-flex align-items-center">
+                            <img
+                              src="/images/erhtSmall.png"
+                            alt="" />
+                          </div>
+                        <p>109,938.11</p>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Goggle Eyes-->
+                <div class="col-12">
+                  <div class="line-light-2"></div>
+                </div>
+                <div class="col-12">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <div class="position-relative icon-width">
+                        <img src="/images/EllipseGoggleEyes.png" alt="" />
+                        <div
+                          class="d-flex align-items-start verified position-absolute top-0 end-0"
+                        >
+                          <img src="/images/verified.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="row d-flex flex-column flex-md-row ">
+                        <div class="col-12 col-md-8 dark-1">
+                          <h4>#4 - Goggle Eyes</h4>
+                        </div>
+                        <div class="col-12 col-md-4 text-sm-pd dark-red text-start text-md-end">
+                            <h4>-1.9%</h4>
+                         </div>
+                      </div>
+                      <div class="row d-none d-md-flex flex-row text-md-pd dark-2">
+                        <div class="col-8 d-flex flex-row align-items-center">
+                          <p>Lowest Price:</p>
+                          <div>
+                            <div class="erth-pd d-flex align-items-center">
+                              <img
+                                
+                                src="/images/erhtSmall.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <p>0.7</p>
+                        </div>
+                        <div class="col-4 d-flex flex-row justify-content-end align-items-center">
+                          <div  class="erth-right-pd d-flex align-items-center">
+                            <img
+                              src="/images/erhtSmall.png"
+                            alt="" />
+                          </div>
+                        <p>65,382.17</p>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Paradize-->
+                <div class="col-12">
+                  <div class="line-light-2"></div>
+                </div>
+                <div class="col-12">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <div class="position-relative icon-width">
+                        <img src="/images/EllipseParadize.png" alt="" />
+                        <div
+                          class="d-flex align-items-start verified position-absolute top-0 end-0"
+                        >
+                          <img src="/images/verified.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="row d-flex flex-column flex-md-row ">
+                        <div class="col-12 col-md-8 dark-1">
+                          <h4>#5 - Paradize</h4>
+                        </div>
+                        <div class="col-12 col-md-4 text-sm-pd dark-green text-start text-md-end">
+                            <h4>+214.8%</h4>
+                         </div>
+                      </div>
+                      <div class="row d-none d-md-flex flex-row text-md-pd dark-2">
+                        <div class="col-8 d-flex flex-row align-items-center">
+                          <p>Lowest Price:</p>
+                          <div>
+                            <div class="erth-pd d-flex align-items-center">
+                              <img
+                                
+                                src="/images/erhtSmall.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <p>82.3</p>
+                        </div>
+                        <div class="col-4 d-flex flex-row justify-content-end align-items-center">
+                          <div  class="erth-right-pd d-flex align-items-center">
+                            <img
+                              src="/images/erhtSmall.png"
+                            alt="" />
+                          </div>
+                        <p>10,980.66</p>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <!--New & Noteworthy-->
+          <!--Upcoming Drop STYLE-->
+          <div class="col-12 col-md-6 d-none d-md-flex ">
+            <div class="trending-block">
+              <div class="row">
+                <div class="col-12 trending-text">
+                  <div class="row d-flex align-items-center">
+                    <div
+                      class="col-8 col-md-9 d-flex flex-column justify-content-start"
+                    >
+                    <h3>New & Noteworthy</h3>
+                    <p>See what’s up and coming this week.</p>
+                    </div>
+                    <div class="col-4 col-md-3 d-flex justify-content-end">
+                      <button
+                        type="button"
+                        class="btn-font btn btn-padding btn-gray"
+                      >
+                        Explore
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!--Bored Something-->
+                <div class="col-12 line-light-pd">
+                  <div class="line-light-2"></div>
+                </div>
+                <div class="col-12">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <div class="position-relative icon-width">
+                        <img src="/images/EllipseBoredSomething.png" alt="" />
+                        <div
+                          class="d-flex align-items-start verified position-absolute top-0 end-0"
+                        >
+                          <img src="/images/verified.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="row d-flex flex-column flex-md-row ">
+                        <div class="col-8 dark-1">
+                          <h4>#1 - Bored Something</h4>
+                        </div>
+                        <div class="col-4 text-sm-pd dark-green text-end">
+                            <h4 >+33,902.6%</h4>
+                         </div>
+                      </div>
+                      <div class="row d-none d-md-flex flex-row text-md-pd dark-2">
+                        <div class="col-8 d-flex flex-row align-items-center">
+                          <p>Lowest Price:</p>
+                          <div>
+                            <div class="erth-pd d-flex align-items-center">
+                              <img
+                                
+                                src="/images/erhtSmall.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <p>34.7</p>
+                        </div>
+                        <div class="col-4 d-flex flex-row justify-content-end align-items-center">
+                          <div  class="erth-right-pd d-flex align-items-center">
+                            <img
+                              src="/images/erhtSmall.png"
+                            alt="" />
+                          </div>
+                        <p>11,192.84</p>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--LTD SOCKS-->
+                <div class="col-12">
+                  <div class="line-light-2"></div>
+                </div>
+                <div class="col-12">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <div class="position-relative icon-width">
+                        <img src="/images/EllipseLTDsocks.png" alt="" />
+                        <div
+                          class="d-flex align-items-start verified position-absolute top-0 end-0"
+                        >
+                          <img src="/images/verified.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="row d-flex flex-column flex-md-row ">
+                        <div class="col-8 dark-1">
+                          <h4>#2 - LTD SOCKS</h4>
+                        </div>
+                        <div class="col-4 text-sm-pd dark-green text-end">
+                            <h4 >+11,231.4%</h4>
+                         </div>
+                      </div>
+                      <div class="row d-none d-md-flex flex-row text-md-pd dark-2">
+                        <div class="col-8 d-flex flex-row align-items-center">
+                          <p>Lowest Price:</p>
+                          <div>
+                            <div class="erth-pd d-flex align-items-center">
+                              <img
+                                
+                                src="/images/erhtSmall.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <p>1.8</p>
+                        </div>
+                        <div class="col-4 d-flex flex-row justify-content-end align-items-center">
+                          <div  class="erth-right-pd d-flex align-items-center">
+                            <img
+                              src="/images/erhtSmall.png"
+                            alt="" />
+                          </div>
+                        <p>75,094.33</p>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--SpAcEwArP-->
+                <div class="col-12">
+                  <div class="line-light-2"></div>
+                </div>
+                <div class="col-12">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <div class="position-relative icon-width">
+                        <img src="/images/EllipseSpacewarP.png" alt="" />
+                        <div
+                          class="d-flex align-items-start verified position-absolute top-0 end-0"
+                        >
+                          <img src="/images/verified.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="row d-flex flex-column flex-md-row ">
+                        <div class="col-8 dark-1">
+                          <h4>#3 - SpAcEwArP</h4>
+                        </div>
+                        <div class="col-4 text-sm-pd dark-green text-end">
+                            <h4 >+1,982.0%</h4>
+                         </div>
+                      </div>
+                      <div class="row d-none d-md-flex flex-row text-md-pd dark-2">
+                        <div class="col-8 d-flex flex-row align-items-center">
+                          <p>Lowest Price:</p>
+                          <div>
+                            <div class="erth-pd d-flex align-items-center">
+                              <img
+                                
+                                src="/images/erhtSmall.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <p>1.9</p>
+                        </div>
+                        <div class="col-4 d-flex flex-row justify-content-end align-items-center">
+                          <div  class="erth-right-pd d-flex align-items-center">
+                            <img
+                              src="/images/erhtSmall.png"
+                            alt="" />
+                          </div>
+                        <p>4,908.39</p>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- BUILDblcks-->
+                <div class="col-12">
+                  <div class="line-light-2"></div>
+                </div>
+                <div class="col-12">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <div class="position-relative icon-width">
+                        <img src="/images/EllipseBuildBlocks.png" alt="" />
+                        <div
+                          class="d-flex align-items-start verified position-absolute top-0 end-0"
+                        >
+                          <img src="/images/verified.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="row d-flex flex-column flex-md-row ">
+                        <div class="col-8 dark-1">
+                          <h4>#4 - BUILDblcks</h4>
+                        </div>
+                        <div class="col-4 text-sm-pd dark-green text-end">
+                            <h4>+709.9%</h4>
+                         </div>
+                      </div>
+                      <div class="row d-none d-md-flex flex-row text-md-pd dark-2">
+                        <div class="col-8 d-flex flex-row align-items-center">
+                          <p>Lowest Price:</p>
+                          <div>
+                            <div class="erth-pd d-flex align-items-center">
+                              <img
+                                
+                                src="/images/erhtSmall.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <p>10.4</p>
+                        </div>
+                        <div class="col-4 d-flex flex-row justify-content-end align-items-center">
+                          <div  class="erth-right-pd d-flex align-items-center">
+                            <img
+                              src="/images/erhtSmall.png"
+                            alt="" />
+                          </div>
+                        <p>1,093.84</p>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Roman Empire-->
+                <div class="col-12">
+                  <div class="line-light-2"></div>
+                </div>
+                <div class="col-12">
+                  <div class="row align-items-center">
+                    <div class="col-auto">
+                      <div class="position-relative icon-width">
+                        <img src="/images/EllipseRomanEmpire.png" alt="" />
+                        <div
+                          class="d-flex align-items-start verified position-absolute top-0 end-0"
+                        >
+                          <img src="/images/verified.png" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="row d-flex flex-column flex-md-row ">
+                        <div class="col-8 dark-1">
+                          <h4>#5 - Roman Empire</h4>
+                        </div>
+                        <div class="col-4 text-sm-pd dark-green text-end">
+                            <h4>+580.3%</h4>
+                         </div>
+                      </div>
+                      <div class="row d-none d-md-flex flex-row text-md-pd dark-2">
+                        <div class="col-8 d-flex flex-row align-items-center">
+                          <p>Lowest Price:</p>
+                          <div>
+                            <div class="erth-pd d-flex align-items-center">
+                              <img
+                                
+                                src="/images/erhtSmall.png"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <p>11.4</p>
+                        </div>
+                        <div class="col-4 d-flex flex-row justify-content-end align-items-center">
+                          <div  class="erth-right-pd d-flex align-items-center">
+                            <img
+                              src="/images/erhtSmall.png"
+                            alt="" />
+                          </div>
+                        <p>4,095.37</p>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+         
+          
+      
+     
+
+      <!--Ending Soon-->
+
+      <div class="upcoming">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-9 d-flex justify-content-start flex-column">
+              <h3>Ending Soon</h3>
+              <div class="col-12  d-none d-md-flex">
+                <p>Check out featured NFT auctions that are ending soon.</p>
+              </div>
+              <div class="col-12 d-flex d-block d-md-none">
+                <p>Auctions ending soon.</p>
+              </div>
+            </div>
+            <div class="col-3 d-flex justify-content-end">
+              <button type="button" class="btn-font btn btn-padding btn-white">
+                Explore
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row g-4">
+           <!--Floppy-->
+          <div class="col-12 col-md-3 ending-box-margin ">
+            <div
+              class="ending-box w-100 floppy-bg d-flex flex-column align-items-center justify-content-end"
+            >
+              <div class="ending-small-box floppy-small-bg w-100">
+                <div class="row w-100 g-0">
+                  <div class="col-6">
+                    <h5 class="lh-15px green">Flowitars</h5>
+                    <p class="lh-20px">Floppy</p>
+                    <h4 class="lh-20px dark-3 fw-normal">#12</h4>
+                  </div>
+                  <div class="col-6 text-end">
+                    <h5 class="lh-15px">Top Bid</h5>
+                    <div class="d-flex flex-row justify-content-end">
+                      <div class="erth-right-pd d-flex align-items-center">
+                        <img
+                          src="/images/erhtSmall.png"
+                        alt="" />
+                      </div>
+                      <p class="lh-20px">2.99 ETH</p>
+                    </div>
+
+                    <h4 class="lh-20px dark-3 fw-normal">1 day left</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!--Merlge-->
+          <div class="col-12 col-md-3 d-none d-md-flex">
+            <div
+              class="ending-box w-100 merlge-bg d-flex flex-column align-items-center justify-content-end"
+            >
+              <div class="ending-small-box merlge-small-bg w-100">
+                <div class="row w-100 g-0">
+                  <div class="col-6">
+                    <h5 class="lh-15px green">Anna Kuife</h5>
+                    <p class="lh-20px light-1">Merlge</p>
+                    <h4 class="lh-20px dark-3 fw-normal light-4">#8745</h4>
+                  </div>
+                  <div class="col-6 text-end">
+                    <h5 class="lh-15px light-1">Top Bid</h5>
+                    <div class="d-flex flex-row justify-content-end">
+                      <div class="erth-right-pd d-flex align-items-center">
+                        <img
+                          src="/images/erhtSmall.png"
+                        alt="" />
+                      </div>
+                      <p class="lh-20px light-1">1.23 ETH</p>
+                    </div>
+                    <h4 class="lh-20px fw-normal light-4">
+                      2 days left
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!--Starr Eyes-->
+          <div class="col-12 col-md-3">
+            <div
+              class="ending-box w-100 starr-bg d-flex flex-column align-items-center justify-content-end"
+            >
+              <div class="ending-small-box starr-small-bg w-100">
+                <div class="row w-100 g-0">
+                  <div class="col-6">
+                    <h5 class="lh-15px green">MUSIKC</h5>
+                    <p class="lh-20px light-1">Starr Eyes</p>
+                    <h4 class="lh-20px dark-3 fw-normal light-4">#192</h4>
+                  </div>
+                  <div class="col-6 text-end">
+                    <h5 class="lh-15px light-1">Top Bid</h5>
+                    <div class="d-flex flex-row justify-content-end">
+                      <div class="erth-right-pd d-flex align-items-center">
+                        <img
+                          src="/images/erhtSmall.png"
+                        alt="" />
+                      </div>
+                      <p class="lh-20px light-1">0.71 ETH</p>
+                    </div>
+                    <h4 class="lh-20px fw-normal light-4">
+                    3 days left
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           <!--H e l p-->
+          <div class="col-12 col-md-3 d-none d-md-flex">
+            <div
+              class="ending-box w-100 help-bg d-flex flex-column align-items-center justify-content-end"
+            >
+              <div class="ending-small-box help-small-bg w-100">
+                <div class="row w-100 g-0">
+                  <div class="col-6">
+                    <h5 class="lh-15px green">BLOODFLOW</h5>
+                    <p class="lh-20px">H e l p</p>
+                    <h4 class="lh-20px dark-3 fw-normal">#54</h4>
+                  </div>
+                  <div class="col-6 text-end">
+                    <h5 class="lh-15px dark-1">Top Bid</h5>
+                    <div class="d-flex flex-row justify-content-end">
+                      <div class="erth-right-pd d-flex align-items-center">
+                        <img
+                          src="/images/erhtSmall.png"
+                        alt="" />
+                      </div>
+                      <p class="lh-20px dark-1">5.90 ETH</p>
+                    </div>
+                    <h4 class="lh-20px dark-3 fw-normal">
+                    5 days left
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--New Collections-->
+      <div class="upcoming">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div class="col-9 d-flex justify-content-start flex-column">
+              <h3>New Collections</h3>
+              <div class="col-12  d-none d-md-flex">
+                <p>
+                  Be the first to get your hands on limited NFT drops, exclusive
+                  to NFTwow.
+                </p>
+              </div>
+              <div class="col-12 d-flex d-block d-md-none">
+                <p>Be the first.</p>
+              </div>
+            </div>
+            <div class="col-3 d-flex justify-content-end">
+              <button type="button" class="btn-font btn btn-padding btn-white">
+                Explore
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-12 col-md-6 d-flex">
+            <div class="claim-block banane-bg">
+              <div class="row gx-4">
+                <!--L’banane-->
+                <div class="col-6">
+                  <h3>L’banane</h3>
+                  <div class="col-12 d-none d-md-flex">
+                    <p>
+                      150 paper bananas, in every shade of yellow on Earth. What
+                      more could you want from an NFT?
+                    </p>
+                  </div>
+                  <div class="col-12 d-flex d-block d-md-none">
+                    <p>150 paper bananas, in every shade.</p>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-font btn btn-padding btn-outline-dark"
+                  >
+                    Live
+                  </button>
+                </div>
+                <div class="col-6">
+                  <picture>
+                    <source
+                      media="(max-width: 768px)"
+                      srcset="/images/banane_M.png"
+                      sizes=""
+                    />
+                    <img src="/images/banane.png" alt="" />
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--SmokeYe-->
+          <div class="d-none d-md-flex col-12 col-md-6">
+            <div class="claim-block smoke-bg">
+              <div class="row gx-4">
+                <div class="col-6">
+                  <h3>SmokeYe</h3>
+                  <p>
+                    These explosive graphics from YeStudio are part of a limited
+                    collection, exclusive to NFTwow.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn-font btn btn-padding btn-outline-dark"
+                  >
+                    Live
+                  </button>
+                </div>
+                <div class="col-6">
+                  <img src="/images/smokyYe.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--C E S R-->
+          <div class="col-12 col-md-6 d-flex">
+            <div class="claim-block cesr-bg">
+              <div class="row gx-4">
+                <div class="col-6">
+                  <h3>C E S R</h3>
+                  <div class="col-12 d-none d-md-flex">
+                    <p>
+                      U I O P Studio’s new collection is part of a Rome
+                      exhibition combining the city’s past and future.
+                    </p>
+                  </div>
+                  <div class="col-12 d-flex d-block d-md-none">
+                    <p>U I O P Studio’s new collection is part of a Rome.</p>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn-font btn btn-padding btn-outline-dark"
+                  >
+                    Live
+                  </button>
+                </div>
+                <div class="col-6">
+                  <picture>
+                    <source
+                      media="(max-width: 768px)"
+                      srcset="/images/cesr_M.png"
+                      sizes=""
+                    />
+                    <img src="/images/cesr.png" alt="" />
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Fllllow-->
+          <div class="d-none d-md-flex col-12 col-md-6 ">
+            <div class="claim-block fllow-bg">
+              <div class="row gx-4">
+                <div class="col-6">
+                  <h3>Fllllow</h3>
+                  <p>
+                    This digital sculpture collection by Emmiy Uulo explores
+                    digital form and virtual reality NFTs.
+                  </p>
+                  <button
+                    type="button"
+                    class="btn-font btn btn-padding btn-outline-dark"
+                  >
+                    Live
+                  </button>
+                </div>
+                <div class="col-6">
+                  <img src="/images/fllow.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Learn & Earn-->
+      <div class="upcoming">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <div
+              class="col-7 col-md-9 d-flex justify-content-start flex-column"
+            >
+              <h3>Learn & Earn</h3>
+              <div class="col-12 d-none d-md-flex">
+                <p>New to NFTs? Start here and build your education.</p>
+              </div>
+              <div class="col-12 d-flex d-block d-md-none">
+                <p>New to NFTs?</p>
+              </div>
+            </div>
+            <div class="col-5 col-md-3 d-flex justify-content-end">
+              <button type="button" class="btn-font btn btn-padding btn-white">
+                Visit Learn
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row  g-4 learn">
+          <!--Learn-1-->
+          <div class="col-12 col-md-3 ending-box-margin d-flex">
+            <div
+              class="ending-box w-100 learn-1-bg d-flex flex-column align-items-center justify-content-end"
+            >
+              <div class="ending-small-box learn-1-small-bg w-100">
+                <div class="row w-100 g-0">
+                  <div class="col">
+                    <h5 class="green">Learn</h5>
+                    <p class="light-1">
+                      New to NFTs? Start here and learn the basics before
+                      investing.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Learn-2-->
+          <div class="col-12 col-md-3 d-flex">
+            <div
+              class="ending-box w-100 learn-2-bg d-flex flex-column align-items-center justify-content-end"
+            >
+              <div class="ending-small-box learn-2-small-bg w-100">
+                <div class="row w-100 g-0">
+                  <div class="col">
+                    <h5 class="green">Learn</h5>
+                    <p class="light-1">
+                      Learn how to top up your wallet on NFTwow.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Learn-3-->
+          <div class="col-12 col-md-3 d-none d-md-flex">
+            <div
+              class="ending-box w-100 learn-3-bg d-flex flex-column align-items-center justify-content-end"
+            >
+              <div class="ending-small-box learn-3-small-bg w-100">
+                <div class="row w-100 g-0">
+                  <div class="col">
+                    <h5 class="green">Learn</h5>
+                    <p class="light-1">
+                      Earn rewards by completing this course, and unlock free
+                      crypto.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Learn-4-->
+          <div class="col-12 col-md-3 d-none d-md-flex">
+            <div
+              class="ending-box w-100 learn-4-bg d-flex flex-column align-items-center justify-content-end"
+            >
+              <div class="ending-small-box learn-4-small-bg w-100">
+                <div class="row w-100 g-0">
+                  <div class="col">
+                    <h5 class="green">Learn</h5>
+                    <p class="light-1">
+                      What’s the diference between an image and an NFT? We
+                      explain all.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Trade NFTs with zero fees-->
+      <div class="trade-NFT trade-m-bg trade-bg">
+        <div class="container ">
+          <div class="row ">
+            <div class="col-12">
+              <h6>Don’t miss out!</h6>
+            </div>
+            <div class="col-12  d-none d-md-flex">
+              <h1>Trade NFTs with zero fees</h1>
+            </div>
+            <div class="col-12 d-flex d-block d-md-none">
+              <h1>Trade</br> NFTs free</h1>
+            </div>
+            <div class="col-12 d-flex">
+              <h2>We are the world’s highest-rated online marketplace</h2>
+            </div>
+          </div>
+          <div class="row btn-group">
+            <div class="col-12 d-flex flex-row">
+              <button
+                class="btn-font btn-explore btn-right-mg btn-padding btn"
+                type="button"
+              >
+                Explore NFTs
+              </button>
+              <button class="btn-font btn btn-create btn-padding" type="button">
+                <div class="d-block d-md-none">Create</div>
+                <div class="d-none d-md-flex">Create Your Own</div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Partners-->
+      <div class="container">
+        <div class="row">
+          <div class="col-12 line-light-4-pd">
+            <div class="line-light-4"></div>
+          </div>
+          <div class="col-12 line-light-4-pd-top">
+            <div class="line-light-4"></div>
+          </div>
+        </div>
+        <div class="row  d-none d-md-flex partners">
+          <div class="col-12 d-flex justify-content-between ">
+            <img src="/images/boomerang.png" alt="" />
+            <img src="/images/blimp.png" alt="" />
+            <img src="/images/qrco.png" alt="" />
+            <img src="/images/OpenDoor.png" alt="" />
+            <img src="/images/Droplet.png" alt="" />
+          </div>
+        </div>
+        <div class="row  d-none d-md-flex">
+         
+            <div class="col-12 line-light-4-pd">
+              <div class="line-light-4"></div>
+            </div>
+            <div class="col-12 line-light-4-pd-top">
+              <div class="line-light-4"></div>
+            </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!--Nft-menu-->
+      <div class="menu-NFT">
+        <div class="container">
+          <div class="row dark-2">
+            <div class="col-12 col-md-4">
+              <div class="row">
+                <div class="col-12"><img src="/images/logo.png" alt="" /></div>
+                <div class="col-12 "><p>NFT Collection Platform</p></div>
+                <div class="col-12 d-flex flex-row menu-img">
+                  <img src="/images/facebook.png" alt="" />
+                  <img src="/images/twitter.png" alt="" />
+                  <img src="/images/instagram.png" alt="" />
+                  <img src="/images/tiktok.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-2">
+              <h5 class="dark-4">About</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="">About</a>
+                </li>
+                <li class="menu-li-pd">
+                  <a  href="">Terms</a>
+                </li>
+                <li class="menu-li-pd">
+                  <a href="">Legal</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-2">
+              <h5  class="dark-4">NFT</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="">Learn</a>
+                </li>
+                <li class="menu-li-pd">
+                  <a href="">Earn</a>
+                </li>
+                <li class="menu-li-pd">
+                  <a href="">Affiliate</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-2">
+              <h5  class="dark-4">Contact</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="">Press</a>
+                </li>
+                <li class="menu-li-pd">
+                  <a href="">Support</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-2">
+              <h5  class="dark-4">Social</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="">Twitter</a>
+                </li>
+                <li class="menu-li-pd">
+                  <a href="">Instagram</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Copyright 2022 NFTwow-->
+      <div class="copyright">
+        <div class="container dark-4">
+          <div class="row">
+            <div class="col-12 col-md-6 text-start">
+              <p>© Copyright 2022 NFTwow</p>
+            </div>
+            <div class="col-12 col-md-6 d-none d-md-flex justify-content-end">
+              <p>All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!--Script-->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
@@ -114,5 +1452,5 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
-  </body>
+</body>
 </html>

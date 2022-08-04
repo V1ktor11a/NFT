@@ -25,6 +25,25 @@ img {
   background-color: $color-light-1;
   color: $color-dark-1;
 }
+.btn-font {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 0;
+}
+.btn-explore {
+  background-color: $color-green;
+  color: $color-dark-1;
+}
+.btn-right-mg {
+  margin-right: 16px;
+}
+.btn-create {
+  background-color: $color-light-1;
+  color: $color-dark-1;
+}
 
 .menu {
   .navbar-brand {
@@ -49,6 +68,9 @@ img {
   .navbar {
     padding-top: 36px;
     padding-bottom: 0;
+  }
+  .dark-4.form-control::placeholder {
+    color: $color-dark-4;
   }
 }
 //Hero
@@ -78,15 +100,7 @@ img {
   .btn-group {
     padding-bottom: 56px;
   }
-  .btn-explore {
-    background-color: $color-green;
-    color: $color-dark-1;
-    margin-right: 16px;
-  }
-  .btn-create {
-    background-color: $color-light-1;
-    color: $color-dark-1;
-  }
+
   .bg-create {
     background-color: $color-red;
     padding: 5px;
@@ -99,12 +113,16 @@ img {
     color: $color-dark-2;
   }
 }
+
 .line-light-4 {
   height: 1px;
   background-color: $color-light-4;
 }
 .line-light-4-pd {
   padding-bottom: 1px;
+}
+.line-light-4-pd-top {
+  padding-top: 1px;
 }
 
 //Claim a Free Limited NFT and CHARBlobs
@@ -358,15 +376,6 @@ img {
   .btn-group {
     padding-bottom: 32px;
   }
-  .btn-explore {
-    background-color: $color-green;
-    color: $color-dark-1;
-    margin-right: 16px;
-  }
-  .btn-create {
-    background-color: $color-light-1;
-    color: $color-dark-1;
-  }
 }
 .trade-m-bg {
   background-image: url(/images/bg-FooterM.png);
@@ -415,6 +424,126 @@ img {
   padding-top: 12px;
 }
 
+//Second page
+.bg-header {
+  background-image: url(/images/bg-Hero2.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.octous-pd {
+  padding-bottom: 24px;
+}
+.game-pd {
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+.header-text-pd {
+  padding-top: 40px;
+  max-width: 808px;
+}
+.header-small-text-pd {
+  padding-top: 8px;
+}
+.header-big-box {
+  padding: 40px 32px 32px 32px;
+  border: none;
+  border-radius: 8px;
+  background-color: $color-light-1;
+}
+.verified-pd {
+  padding-left: 12px;
+}
+.position-pd {
+  padding-left: 180px;
+  padding-bottom: 58px;
+}
+.header-small-box {
+  padding: 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: $color-light-1;
+}
+
+.header-container-pd {
+  padding-top: 64px;
+}
+.eth-pd {
+  padding-right: 12px;
+}
+.nav-color {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(8px);
+}
+.dark-1.form-control::placeholder {
+  color: $color-dark-1;
+}
+//10,000 Items
+.nav-search-item {
+  width: 243px;
+  padding-top: 8px;
+  padding-left: 12px;
+  padding-bottom: 8px;
+  margin-left: 24px;
+  border-radius: 8px;
+  border: none;
+}
+.nav-color-item {
+  background: $color-light-3;
+}
+//Shop
+//Purple Man
+.purple-man-bg {
+  background-image: url(/images/manPurple.png);
+}
+.purple-man-small-bg {
+  background: rgba(17, 26, 25, 0.64);
+  backdrop-filter: blur(12px);
+}
+//Orange Man
+.orange-man-bg {
+  background-image: url(/images/manOrange.png);
+}
+.orange-man-small-bg {
+  background: rgba(11, 21, 22, 0.64);
+  backdrop-filter: blur(12px);
+}
+//Student
+.student-bg {
+  background-image: url(/images/student.png);
+}
+.student-small-bg {
+  background: rgba(53, 50, 55, 0.64);
+  backdrop-filter: blur(12px);
+}
+//Green Man
+.green-man-bg {
+  background-image: url(/images/manGreen.png);
+}
+.green-man-small-bg {
+  background: rgba(16, 15, 20, 0.64);
+  backdrop-filter: blur(12px);
+}
+//Teacher
+.teacher-bg {
+  background-image: url(/images/teacher.png);
+}
+.teacher-small-bg {
+  background: rgba(40, 39, 44, 0.64);
+  backdrop-filter: blur(12px);
+}
+//Dark Orange Man
+.dark-orange-man-bg {
+  background-image: url(/images/manDarkOrange.png);
+}
+.dark-orange-man-small-bg {
+  background: rgba(40, 26, 23, 0.64);
+  backdrop-filter: blur(12px);
+}
+//White Union
+.white-union {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 //
 @media (min-width: 768px) {
   .container {
@@ -465,6 +594,8 @@ img {
       margin-right: auto;
       border-radius: 8px;
       border: none;
+    }
+    .nav-search-color {
       background-color: $color-light-1;
     }
 
@@ -508,6 +639,10 @@ img {
   //New & Noteworthy
   .upcoming {
     padding-top: 56px;
+    padding-bottom: 56px;
+  }
+  .upcoming-block-pd {
+    padding-bottom: 32px;
   }
   .trending-block {
     padding-bottom: 32px;
@@ -533,7 +668,7 @@ img {
   .trade-bg {
     background-image: url(/images/bg-Footer1.png);
     background-repeat: no-repeat;
-    background-position: bottom right 64px;
+    background-position: bottom right 63px;
   }
 
   //Nft-menu
@@ -553,5 +688,35 @@ img {
   }
   .text-md-pd {
     padding-top: 12px;
+  }
+  //Second page
+  .bg-header {
+    background-image: url(/images/bg-Hero2.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+  .header-big-box {
+    padding: 60px 56px 56px 56px;
+  }
+  .header-small-box {
+    padding: 46px;
+  }
+  .header-container-pd {
+    padding-top: 248px;
+  }
+  .eth-pd {
+    padding-right: 22px;
+  }
+  .position-pd {
+    padding-left: 230px;
+  }
+  .octous-pd {
+    padding-bottom: 0;
+  }
+  //Trade NFTs with zero fees Second page
+  .trade-second-bg {
+    background-image: url(/images/bg-Footer2.png);
+    background-repeat: no-repeat;
+    background-position: bottom right 63px;
   }
 }
