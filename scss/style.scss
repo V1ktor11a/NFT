@@ -541,11 +541,137 @@ img {
 }
 //White Union
 .white-union {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+//Third page
+.bg-header-3 {
+  background-image: url(/images/bg-Hero3.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.header-container-pd-3 {
+  padding-top: 64px;
+}
+.ending-box-3 {
+  height: 593px;
+  max-width: 448px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-size: cover;
+  .ending-small-box {
+    padding: 24px;
+
+    img {
+      padding-right: 8px;
+    }
+  }
+  p {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+.purple-man-big-bg {
+  background-image: url(/images/manBig.png);
+}
+.big-purple-man-small-bg {
+  background: rgba(11, 21, 22, 0.64);
+  backdrop-filter: blur(12px);
 }
 //
 @media (min-width: 768px) {
+  .container {
+    max-width: 992px;
+  }
+  .container {
+    padding: 0 48px;
+  }
+  .hero {
+    padding-top: 56px;
+    padding-bottom: 0;
+
+    .mobile-bg {
+      background-position: bottom right 24px;
+    }
+    h1 {
+      max-width: 330px;
+    }
+    h2 {
+      max-width: 330px;
+    }
+  }
+  //Navbar
+  .menu {
+    padding-top: 32px;
+
+    .navbar {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+      color: $color-dark-1;
+      padding: 0;
+    }
+    .navbar-brand {
+      margin-right: 0;
+    }
+    .nav-logo {
+      margin-right: 38px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    .nav-search {
+      width: 248px;
+      padding-top: 8px;
+      padding-left: 12px;
+      padding-bottom: 8px;
+      margin-left: 38px;
+      margin-right: auto;
+      border-radius: 8px;
+      border: none;
+    }
+    .nav-search-color {
+      background-color: $color-light-1;
+    }
+
+    .navbar-pd {
+      padding-right: 12px;
+    }
+    .nav-logo {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  .some-menu {
+    padding-top: 12px;
+    padding-left: 12px;
+    .color-btn {
+      padding: 0;
+    }
+  }
+  //Trade NFTs with zero fees
+  .trade-m-bg {
+    background-position: top 10px right;
+  }
+  //Nft-menu
+  .menu-NFT {
+    h5 {
+      padding-top: 0;
+      padding-bottom: 24px;
+    }
+  }
+  //Second page
+  .header-container-pd {
+    padding-top: 148px;
+  }
+  //Third page
+}
+
+//
+@media (min-width: 992px) {
   .container {
     max-width: 1520px;
   }
@@ -671,13 +797,6 @@ img {
     background-position: bottom right 63px;
   }
 
-  //Nft-menu
-  .menu-NFT {
-    h5 {
-      padding-top: 0;
-      padding-bottom: 24px;
-    }
-  }
   //Copyright 2022 NFTwow
   .copyright {
     padding-bottom: 80px;
@@ -690,11 +809,7 @@ img {
     padding-top: 12px;
   }
   //Second page
-  .bg-header {
-    background-image: url(/images/bg-Hero2.png);
-    background-repeat: no-repeat;
-    background-position: top left;
-  }
+
   .header-big-box {
     padding: 60px 56px 56px 56px;
   }
@@ -713,9 +828,23 @@ img {
   .octous-pd {
     padding-bottom: 0;
   }
+  //White Union
+  .white-union {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
   //Trade NFTs with zero fees Second page
   .trade-second-bg {
     background-image: url(/images/bg-Footer2.png);
+    background-repeat: no-repeat;
+    background-position: bottom right 63px;
+  }
+  //Third page
+  .header-container-pd-3 {
+    padding-top: 160px;
+  }
+  .trade-third-bg {
+    background-image: url(/images/bg-Footer3.png);
     background-repeat: no-repeat;
     background-position: bottom right 63px;
   }
