@@ -119,6 +119,18 @@ img {
   border-radius: 8px;
 }
 
+#categories .btn-padding {
+  padding: 0;
+  border-radius: 8px;
+}
+#categories .btn-padding a {
+  padding: 10.5px 12px;
+  color: #111111;
+}
+#categories .btn-padding a:hover {
+  color: #fff;
+}
+
 .btn-gray {
   background-color: #eeeeee;
   color: #111111;
@@ -371,9 +383,6 @@ img {
 }
 .ending-box .ending-small-box {
   padding: 24px;
-}
-.ending-box .ending-small-box img {
-  padding-right: 8px;
 }
 .ending-box p {
   padding-top: 12px;
@@ -738,7 +747,7 @@ img {
 }
 
 .ending-box-3 {
-  height: 593px;
+  min-height: 593px;
   max-width: 448px;
   border-radius: 8px;
   overflow: hidden;
@@ -746,9 +755,6 @@ img {
 }
 .ending-box-3 .ending-small-box {
   padding: 24px;
-}
-.ending-box-3 .ending-small-box img {
-  padding-right: 8px;
 }
 .ending-box-3 p {
   padding-top: 12px;

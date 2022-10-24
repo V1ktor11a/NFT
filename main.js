@@ -1,9 +1,5 @@
 window.addEventListener("load", function () {
-  const createCard = (
-    order,
-
-    btnText = "Open"
-  ) => {
+  const createCard = (order, btnText = "Open") => {
     const cardsCollection = [
       {
         cardBg: "banane-bg",
@@ -40,11 +36,13 @@ window.addEventListener("load", function () {
     ];
 
     const title = document.createElement("h3");
-    title.innerText = cardsCollection[order].textTitle;
+    const titleText = cardsCollection[order].textTitle;
+    title.innerText = titleText.charAt(0).toUpperCase() + titleText.slice(1);
+
     const description = document.createElement("p");
     description.innerText = cardsCollection[order].textDescription;
     const button = document.createElement("button");
-    button.innerText = btnText;
+    button.innerHTML = `<a href="/index2.html?page=${cardsCollection[order].textTitle}">${btnText}</a>`;
     button.classList.add("btn-font", "btn", "btn-padding", "btn-outline-dark");
 
     const textWrapper = document.createElement("div");
@@ -122,14 +120,3 @@ $(document).ready(function () {
     },
   });
 });
-
-let getData = async () => {
-  let data = await fetch(
-    "https://inshorts.deta.dev/news?category=science"
-  ).then((response) => response.json());
-  console.log("resp: ", data);
-  console.log("resp: ", data.category);
-  console.log("resp: ", data.data[0]);
-};
-
-getData();
